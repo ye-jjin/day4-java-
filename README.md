@@ -285,7 +285,7 @@ catch ( 처리할 예외 타입 선언 ) {
 <br>
 <br>
 
-    - 코드
+- 코드
     
 ```java
     // 접근권한 + 클래스 선언 + 클래스 이름
@@ -331,9 +331,9 @@ catch ( 처리할 예외 타입 선언 ) {
 <br>
 <br>
  
-    - 코드
+- 코드
     
-    ```java
+```java
     public class TVTest{
     	public static void main(String[] args){
     		
@@ -353,17 +353,17 @@ catch ( 처리할 예외 타입 선언 ) {
     		
     	}
     }
-    ```
+```
 
 <br>
 <br>
     
-    - 실행 결과
+ - 실행 결과
     
-    ```java
+ ```java
     channel : 7
     channel : 6
-    ```
+ ```
     
 
 - 인스턴스는 참조 변수를 통해서만 다룰 수 있으며, 참조 변수의 타입은 인스턴스의 타입과 일치해야 합니다.
