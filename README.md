@@ -252,14 +252,50 @@ catch ( 처리할 예외 타입 선언 ) {
 <br>
 
 - 코드
+ ```java
+ // 시용자 정의 예외 클래스 생성
+ public class NumException extends Exception{
+ 	public NumException(){
+		suoer();
+	}
+	
+	public void numError(){
+		System.out.println("100보다 큽니다.");
+	}
+ }
+ ```
 
-
-
+ ```
+ public class Main{
+ 	public static void main(String[] args){
+		int n=101;
+		
+		//100보다 작은 경우 정상
+		if(n<100){
+			System.out.println("정상");
+		}
+		
+		//100보다 크면 예외 발생
+		else
+			//강제 예외 발생(throw)
+			try{
+				throw new NumException();
+			//발생시킨 예외를 처리
+			}catch(NumException e){
+				//출력하고 싶은 메세지 선택
+				e.numError();
+			}
+	}
+ }
+ ```
+ 
 <br>
 <br>
 
 - 실습  결과
-
+ ```java
+ 100보다 큽니다.
+ ```
 
 
 ---
