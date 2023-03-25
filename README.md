@@ -265,7 +265,7 @@ catch ( 처리할 예외 타입 선언 ) {
  }
  ```
 
- ```
+ ```java
  public class Main{
  	public static void main(String[] args){
 		int n=101;
