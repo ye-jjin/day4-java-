@@ -746,7 +746,7 @@ public abstrct class Animal{
 public class Dog extends Animal{
 	
 	public Dog(String name, int age){
-		super(naem,age);
+		super(name,age);
 	}
 	
 	// 메서드 오버라이딩
@@ -762,7 +762,7 @@ public class Dog extends Animal{
 public class Cat extends Animal{
 	
 	public Cat(String name, int age){
-		super(naem,age);
+		super(name,age);
 	}
 	
 	// 메서드 오버라이딩
